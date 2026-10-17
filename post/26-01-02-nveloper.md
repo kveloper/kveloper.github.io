@@ -5,8 +5,6 @@ category: "NOTICE"
 image: /assets/images/steven.jpg
 ---
 
-> 이 글은 레이아웃 확인용 예시입니다. 실제 프로젝트 소개로 교체해 주세요.
-
 ## nveloper는 누구입니까?
 
 우리들의 위대한 nveloper 동지께서는 중학교 시절인 2015년부터 kveloper의 친구가 되어주신 위대하신 분으로서 각종 유틸리티를 자급자족하고 있습니다. kveloper가 가지고 있는 대부분의 기술은 위대하신 nveloper 동지로부터 유래되었으며 kveloper라는 닉네임조차 그로부터 파생되었습니다.
