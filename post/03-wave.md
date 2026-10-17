@@ -1,18 +1,14 @@
 ---
-title: "WAVE LAB"
-subtitle: "코드로 그리는 물결"
-category: "CREATIVE CODING"
-image: /assets/images/03-wave.svg
+title: "NAVER BLOG"
+subtitle: "망한 플랫폼에서 운영하는 지인 소통용 블로그"
+category: "NOTICE"
+image: /assets/images/naverblog.png
 # github: https://github.com/kveloper/your-project
 # play: /games/your-project/index.html
 ---
 
-> 이 글은 레이아웃 확인용 예시입니다. 실제 프로젝트 소개로 교체해 주세요.
+## kveloper 네이버 블로그
 
-## 프로젝트 소개
+쳐 망해버린 네이버의 쳐 망해버린 블로그 서비스지만 웬지 과 친구들은 인스타에 올리기 껄끄러운 진중한 얘기를 올리는 데 사용하고 있습니다.
 
-코드로 그리는 물결. 이곳에 프로젝트의 목적과 주요 기능, 개발 과정을 Markdown으로 작성하세요.
-
-## 실행 및 소스 코드
-
-글 맨 위의 `github`와 `play` 항목에 주소를 입력하면 저장소와 웹게임으로 이동하는 버튼이 표시됩니다.
+kveloper 네이버 블로그에서는 여러 뻘소리와 일상글과 시험공부 자료를 찾아볼 수 있습니다. 지금 [접속](blog.naver.com/geojeong)하십시오.
