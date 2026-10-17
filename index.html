@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<header class="masthead">
+  <a class="wordmark" href="{{ '/' | relative_url }}">KVELOPER<span class="status-dot" aria-hidden="true"></span></a>
+  <p>작은 실험에서, 새로운 플레이까지.</p>
+  <a class="github-link" href="https://github.com/kveloper" target="_blank" rel="noopener noreferrer">GITHUB ↗</a>
+</header>
+<main id="main" class="project-grid" aria-label="프로젝트 목록">
+  {% assign projects = site.pages | where_exp: 'page', 'page.path contains "post/"' | sort: 'path' %}
+  {% for project in projects %}
+  {% assign extension = project.path | split: '.' | last %}
+  {% if extension == 'md' %}
+  <a class="tile" href="{{ project.url | relative_url }}" aria-label="{{ project.title | escape }} 자세히 보기">
+    <img src="{{ project.image | default: '/assets/images/default.svg' | relative_url }}" alt="" {% if forloop.index > 6 %}loading="lazy"{% endif %} decoding="async">
+    <span class="tile-shade"></span>
+    <span class="tile-top"><span>{{ project.category | default: 'PROJECT' | escape }}</span><span>{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span></span>
+    <span class="tile-bottom"><span><span class="tile-description">{{ project.subtitle | escape }}</span><strong>{{ project.title | escape }}</strong></span><span class="tile-arrow" aria-hidden="true">↗</span></span>
+  </a>
+  {% endif %}
+  {% endfor %}
+</main>
+<footer><span>© {{ 'now' | date: '%Y' }} KVELOPER</span><span>MADE OF CURIOSITY <span class="footer-star">✳</span></span><a href="https://github.com/kveloper">함께 만들어요 ↗</a></footer>
