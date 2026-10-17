@@ -2,7 +2,7 @@
 title: "ABOUT"
 subtitle: "KVELOPER 소개"
 category: "NOTICE"
-image: /assets/images/kv_alyer.png
+image: /assets/images/kv_alter.png
 ---
 
 ## About KVELOPER
