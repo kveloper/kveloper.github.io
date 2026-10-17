@@ -2,12 +2,12 @@
 title: "RTS PROJECT"
 subtitle: "진행중인 프로젝트"
 category: "PROJECT"
-image: /assets/images/04-terminal.svg
+image: /assets/images/alien.png
 ---
 
 ## 프로젝트 소개
 
-내가 제작중인 RTS 프로젝트입니다.
+내가 제작중인 RTS(실시간 전략 게임) 프로젝트입니다.
 
 본래 2차세계대전을 배경으로 만들려고 했지만 탱크나 대전차포를 만들기 귀찮았습니다.
 
