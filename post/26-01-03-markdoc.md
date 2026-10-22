@@ -1,7 +1,7 @@
 ---
 title: "MARKDOC"
 subtitle: "간편한 마크다운 문서 에디터"
-category: "NOTICE"
+category: "ONGOING PROJECT"
 image: /assets/images/markdoc.png
 ---
 
