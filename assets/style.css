@@ -1,23 +1,76 @@
-@font-face{font-family:Aggro;src:url('fonts/SB_Aggro_M.woff') format('woff');font-weight:400;font-style:normal;font-display:swap}
-@font-face{font-family:Aggro;src:url('fonts/SB_Aggro_B.woff') format('woff');font-weight:700;font-style:normal;font-display:swap}
-:root{font-family:Aggro,sans-serif;color:#30302e;background:#f8f7f4;font-synthesis:none;line-height:1.95;overflow-wrap:anywhere}
-body{max-width:740px;margin:0 auto;padding:clamp(24px,5vw,56px) clamp(24px,6vw,56px) clamp(64px,10vw,120px)}
-nav{display:flex;justify-content:flex-end;gap:12px;margin-bottom:clamp(48px,8vw,80px)}
-nav a{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:4px 8px;border:1px solid #deddd8;border-radius:6px;box-sizing:border-box}
-nav a:hover{background:#eeede8}
-nav img{display:block;width:32px;height:auto}
-a{color:inherit;text-underline-offset:4px}a:hover{color:#555}
-:focus-visible{outline:2px solid currentColor;outline-offset:5px}
-h1,h2,h3,h4,h5,h6,strong,b,th{font-weight:700}
-h1,h2,h3,h4,h5,h6{line-height:1.4;margin:1.8em 0 .7em}
-h1{font-size:clamp(1.8rem,6vw,2.4rem);margin-top:0}
-p,ul,ol,blockquote,pre,table{margin:1.5em 0}
-blockquote{margin-left:0;padding-left:20px;border-left:2px solid #ddd;color:#555}
-pre{padding:16px;background:#f5f5f5;overflow:auto}
-code{font-family:ui-monospace,monospace;font-size:.9em}
-table{display:block;max-width:100%;overflow:auto;border-collapse:collapse}
-td,th{padding:8px 12px;border:1px solid #ddd}
-hr{border:0;border-top:1px solid #ddd;margin:2em 0}
-img{max-width:100%;height:auto}
-.skip-link{position:absolute;top:0;left:20px;transform:translateY(-150%);background:#f8f7f4}
-.skip-link:focus{transform:none}
+@font-face {
+  font-family: Aggro;
+  src: url('fonts/SB_Aggro_M.woff') format('woff');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: Aggro;
+  src: url('fonts/SB_Aggro_B.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+* { box-sizing: border-box; }
+html {
+  background: #efeee9;
+  color: #363632;
+  font-family: Aggro, sans-serif;
+  font-synthesis: none;
+  overflow-wrap: anywhere;
+}
+body {
+  max-width: 880px;
+  min-height: calc(100vh - 96px);
+  margin: 48px auto;
+  padding: 28px 80px 96px;
+  background: #faf9f6;
+  border: 1px solid #e3e1d9;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e3e1d9;
+  margin-bottom: 64px;
+}
+nav a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 4px 8px;
+  border: 1px solid #deddd5;
+  border-radius: 6px;
+}
+nav a:hover { background: #eeede7; }
+nav img { display: block; width: 32px; height: auto; }
+main { font-size: 16px; line-height: 2.1; word-break: keep-all; }
+a { color: inherit; text-underline-offset: 5px; }
+a:hover { color: #62625b; }
+:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+h1, h2, h3, h4, h5, h6, strong, b, th { font-weight: 700; }
+h1, h2, h3, h4, h5, h6 { line-height: 1.5; margin: 2.2em 0 1em; }
+h1 { font-size: clamp(28px, 5vw, 36px); margin: 0 0 40px; }
+p, ul, ol, blockquote, pre, table { margin: 0 0 28px; }
+ul, ol { padding-left: 1.5em; }
+li + li { margin-top: 8px; }
+blockquote { margin-left: 0; padding-left: 20px; border-left: 2px solid #d8d6cc; color: #62625b; }
+pre { padding: 20px; background: #efeee9; overflow: auto; }
+code { font-family: ui-monospace, monospace; font-size: .9em; }
+table { display: block; max-width: 100%; overflow: auto; border-collapse: collapse; }
+td, th { padding: 8px 12px; border: 1px solid #deddd5; }
+hr { border: 0; border-top: 1px solid #deddd5; margin: 40px 0; }
+img { max-width: 100%; height: auto; }
+.skip-link { position: absolute; top: 0; left: 20px; transform: translateY(-150%); background: #faf9f6; }
+.skip-link:focus { transform: none; }
+@media (max-width: 920px) {
+  body { margin: 24px; min-height: calc(100vh - 48px); padding: 24px 48px 72px; }
+}
+@media (max-width: 600px) {
+  body { margin: 12px; min-height: calc(100vh - 24px); padding: 16px 24px 48px; }
+  nav { margin-bottom: 40px; padding-bottom: 16px; }
+  main { font-size: 15px; line-height: 2; }
+  h1 { margin-bottom: 28px; }
+}
