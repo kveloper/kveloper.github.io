@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
   <title>{{ site.title | escape }}</title>
   <meta name="description" content="{{ page.description | default: site.description | escape }}">
   <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
@@ -18,11 +19,14 @@
 </head>
 <body>
   <a class="skip-link" href="#main">{{ page.skip_label | default: 'Skip to content' }}</a>
+  <header class="site-header">
+  <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
   <nav aria-label="{{ page.language_label | default: 'Language' }}">
-    <a href="{{ '/kor.html' | relative_url }}" lang="ko" hreflang="ko" aria-label="한국어" title="한국어"{% if page.lang == 'ko' %} aria-current="page"{% endif %}><img src="{{ '/assets/kor.png' | relative_url }}" alt="한국어" width="64" height="43"></a>
     <a href="{{ '/' | relative_url }}" lang="en" hreflang="en" aria-label="English" title="English"{% if page.lang == 'en' %} aria-current="page"{% endif %}><img src="{{ '/assets/eng.png' | relative_url }}" alt="English" width="64" height="43"></a>
+    <a href="{{ '/kor.html' | relative_url }}" lang="ko" hreflang="ko" aria-label="한국어" title="한국어"{% if page.lang == 'ko' %} aria-current="page"{% endif %}><img src="{{ '/assets/kor.png' | relative_url }}" alt="한국어" width="64" height="43"></a>
     <a href="{{ '/jpn.html' | relative_url }}" lang="ja" hreflang="ja" aria-label="日本語" title="日本語"{% if page.lang == 'ja' %} aria-current="page"{% endif %}><img src="{{ '/assets/jpn.png' | relative_url }}" alt="日本語" width="64" height="43"></a>
   </nav>
+  </header>
   <main id="main" tabindex="-1">{{ content }}</main>
 </body>
 </html>
