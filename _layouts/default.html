@@ -10,8 +10,8 @@
 <body>
   <a class="skip-link" href="#main">본문으로 이동</a>
   <nav aria-label="언어 / Language" class="notranslate" translate="no">
-    <a href="{{ '/' | absolute_url }}" lang="ko" aria-label="한국어 원문">한국어</a>
-    <a href="https://translate.google.com/translate?sl=ko&amp;tl=en&amp;u={{ '/' | absolute_url | url_encode }}" lang="en" aria-label="Read in English with Google Translate">English</a>
+    <a href="{{ '/' | absolute_url }}" lang="ko" aria-label="한국어 원문" title="한국어"><img src="{{ '/assets/kor.png' | relative_url }}" alt="한국어" width="64" height="43"></a>
+    <a href="https://translate.google.com/translate?sl=ko&amp;tl=en&amp;u={{ '/' | absolute_url | url_encode }}" lang="en" aria-label="Read in English with Google Translate" title="English"><img src="{{ '/assets/eng.png' | relative_url }}" alt="English" width="64" height="43"></a>
   </nav>
   <main id="main" tabindex="-1">{{ content }}</main>
 </body>

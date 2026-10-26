@@ -1,14 +1,17 @@
 @font-face{font-family:Aggro;src:url('fonts/SB_Aggro_M.woff') format('woff');font-weight:400;font-style:normal;font-display:swap}
 @font-face{font-family:Aggro;src:url('fonts/SB_Aggro_B.woff') format('woff');font-weight:700;font-style:normal;font-display:swap}
-:root{font-family:Aggro,sans-serif;color:#222;background:#fff;font-synthesis:none;line-height:1.85;overflow-wrap:anywhere}
-body{max-width:720px;margin:0 auto;padding:24px clamp(20px,5vw,40px) 72px}
-nav{display:flex;justify-content:flex-end;gap:18px;margin-bottom:48px;font-size:.8rem}
+:root{font-family:Aggro,sans-serif;color:#30302e;background:#f8f7f4;font-synthesis:none;line-height:1.95;overflow-wrap:anywhere}
+body{max-width:740px;margin:0 auto;padding:clamp(24px,5vw,56px) clamp(24px,6vw,56px) clamp(64px,10vw,120px)}
+nav{display:flex;justify-content:flex-end;gap:12px;margin-bottom:clamp(48px,8vw,80px)}
+nav a{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:4px 8px;border:1px solid #deddd8;border-radius:6px;box-sizing:border-box}
+nav a:hover{background:#eeede8}
+nav img{display:block;width:32px;height:auto}
 a{color:inherit;text-underline-offset:4px}a:hover{color:#555}
 :focus-visible{outline:2px solid currentColor;outline-offset:5px}
 h1,h2,h3,h4,h5,h6,strong,b,th{font-weight:700}
 h1,h2,h3,h4,h5,h6{line-height:1.4;margin:1.8em 0 .7em}
 h1{font-size:clamp(1.8rem,6vw,2.4rem);margin-top:0}
-p,ul,ol,blockquote,pre,table{margin:1.2em 0}
+p,ul,ol,blockquote,pre,table{margin:1.5em 0}
 blockquote{margin-left:0;padding-left:20px;border-left:2px solid #ddd;color:#555}
 pre{padding:16px;background:#f5f5f5;overflow:auto}
 code{font-family:ui-monospace,monospace;font-size:.9em}
@@ -16,5 +19,5 @@ table{display:block;max-width:100%;overflow:auto;border-collapse:collapse}
 td,th{padding:8px 12px;border:1px solid #ddd}
 hr{border:0;border-top:1px solid #ddd;margin:2em 0}
 img{max-width:100%;height:auto}
-.skip-link{position:absolute;top:0;left:20px;transform:translateY(-150%);background:white}
+.skip-link{position:absolute;top:0;left:20px;transform:translateY(-150%);background:#f8f7f4}
 .skip-link:focus{transform:none}
