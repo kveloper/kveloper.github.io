@@ -7,12 +7,12 @@ language_label: 言語
 description: Jeong Sanghyeokの個人ページ
 ---
 
-# KVELOPER
+<img src="./assets/me.png" width="163" height="163" />
 
-**Jeong Sanghyeok（정상혁）**と申します。GitHubでは **kveloper** という名前で活動しています。
+**정상혁(Sanghyeok Jeong / チョン・サンヒョク)**
 
-韓国・京畿道高陽市の一山で生まれ育ち、高麗大学校の師範大学で地理教育を専攻しています。2025年からは、同大学の情報大学で人工知能融合専攻も履修しています。
-
-コンピューター、GIS（地理情報システム）、ゲーム開発に興味があります。
-
-[GitHub](https://github.com/kveloper)
+-   📍 大韓民国 キョンギ道 イルサン
+    
+-   🏫 高麗大学校 師範大学 地理教育学科（2021.03 - 2027.02）
+    
+-   🏫 高麗大学校 情報大学 人工知能融合専攻（2025.09 - 2027.02

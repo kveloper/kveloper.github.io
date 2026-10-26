@@ -7,12 +7,12 @@ language_label: Language
 description: Personal page of Jeong Sanghyeok
 ---
 
-# KVELOPER
+<img src="./assets/me.png" width="163" height="163" />
 
-My name is **Jeong Sanghyeok (정상혁)**, and I go by **kveloper** on GitHub.
+**정상혁(Sanghyeok Jeong / チョン・サンヒョク)**
 
-I was born and raised in Ilsan, Goyang, Gyeonggi Province, South Korea. I study Geography Education at Korea University’s College of Education. Since 2025, I have also been pursuing an interdisciplinary major in Artificial Intelligence at Korea University’s College of Informatics.
-
-I am interested in computers, GIS (geographic information systems), and game development.
-
-[GitHub](https://github.com/kveloper)
+-   📍 Ilsan, Gyeonggi-do Province, South Korea
+    
+-   🏫 Korea University Geogprahy Education (Mar 2021 - Feb 2027)
+    
+-   🏫 Korea University AI Interdisciplinary Major (Sep 2025 - Feb 2027)
