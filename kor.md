@@ -1,5 +1,10 @@
 ---
 layout: default
+lang: ko
+permalink: /kor.html
+skip_label: 본문으로 이동
+language_label: 언어
+description: 정상혁의 개인 페이지
 ---
 
 # KVELOPER

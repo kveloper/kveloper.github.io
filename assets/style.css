@@ -1,20 +1,9 @@
-@font-face {
-  font-family: Aggro;
-  src: url('fonts/SB_Aggro_M.woff') format('woff');
-  font-weight: 400;
-  font-display: swap;
-}
-@font-face {
-  font-family: Aggro;
-  src: url('fonts/SB_Aggro_B.woff') format('woff');
-  font-weight: 700;
-  font-display: swap;
-}
 * { box-sizing: border-box; }
 html {
   background: #efeee9;
   color: #363632;
-  font-family: Aggro, sans-serif;
+  font-family: PageText, sans-serif;
+  font-weight: 500;
   font-synthesis: none;
   overflow-wrap: anywhere;
 }
@@ -50,7 +39,7 @@ main { font-size: 16px; line-height: 2.1; word-break: keep-all; }
 a { color: inherit; text-underline-offset: 5px; }
 a:hover { color: #62625b; }
 :focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
-h1, h2, h3, h4, h5, h6, strong, b, th { font-weight: 700; }
+h1, h2, h3, h4, h5, h6, strong, b, th { font-weight: 800; }
 h1, h2, h3, h4, h5, h6 { line-height: 1.5; margin: 2.2em 0 1em; }
 h1 { font-size: clamp(28px, 5vw, 36px); margin: 0 0 40px; }
 p, ul, ol, blockquote, pre, table { margin: 0 0 28px; }
@@ -74,3 +63,6 @@ img { max-width: 100%; height: auto; }
   main { font-size: 15px; line-height: 2; }
   h1 { margin-bottom: 28px; }
 }
+
+nav a[aria-current="page"] { border-color: #76766e; background: #eeede7; }
+html[lang="ja"] main { word-break: normal; line-break: strict; }
