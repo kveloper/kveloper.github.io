@@ -31,10 +31,6 @@ body {
   text-decoration: none;
   min-width: 0;
 }
-nav { display: flex; align-items: center; flex-shrink: 0; gap: 12px; }
-nav a { display: block; padding: 0; border: 0; line-height: 0; }
-nav a:hover { opacity: .7; }
-nav img { display: block; width: 32px; height: auto; }
 main { font-size: 16px; line-height: 2.1; word-break: keep-all; }
 a { color: inherit; text-underline-offset: 5px; }
 a:hover { color: #62625b; }
@@ -60,11 +56,6 @@ img { max-width: 100%; height: auto; }
 @media (max-width: 600px) {
   body { margin: 12px; min-height: calc(100vh - 24px); padding: 16px 24px 48px; }
   .site-header { margin-bottom: 40px; padding-bottom: 16px; }
-  nav { gap: 8px; }
   main { font-size: 15px; line-height: 2; }
   h1 { margin-bottom: 28px; }
 }
-
-nav a[aria-current="page"] { outline: 1px solid #76766e; outline-offset: 3px; }
-nav a[aria-current="page"]:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
-html[lang="ja"] main { word-break: normal; line-break: strict; }
