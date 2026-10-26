@@ -1,9 +1,0 @@
----
-layout: default
----
-<header class="masthead project-header"><a class="wordmark" href="{{ '/' | relative_url }}">KVELOPER<span class="status-dot" aria-hidden="true"></span></a><a class="github-link" href="{{ '/' | relative_url }}">← ALL PROJECTS</a></header>
-<main id="main" class="project-page">
-  <div class="project-intro"><div><span class="eyebrow">{{ page.category | default: 'PROJECT' | escape }}</span><h1>{{ page.title | escape }}</h1><p>{{ page.subtitle | escape }}</p><nav class="project-actions" aria-label="프로젝트 링크">{% if page.play %}<a href="{{ page.play | relative_url }}" target="_blank" rel="noopener noreferrer">플레이하기 ↗</a>{% endif %}{% if page.github %}<a href="{{ page.github }}" target="_blank" rel="noopener noreferrer">GitHub ↗</a>{% endif %}</nav></div><img src="{{ page.image | default: '/assets/images/default.svg' | relative_url }}" alt="{{ page.title | escape }} 프로젝트 이미지"></div>
-  <article class="prose">{{ content }}</article>
-</main>
-<footer><a href="{{ '/' | relative_url }}">← 프로젝트 목록</a><span>© {{ 'now' | date: '%Y' }} KVELOPER</span></footer>

@@ -3,11 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#141414">
-  <title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ page.subtitle | default: site.description | escape }}">
-  <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <title>{{ site.title | escape }}</title>
+  <meta name="description" content="{{ site.description | escape }}">
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
-<body><a class="skip-link" href="#main">본문으로 이동</a>{{ content }}</body>
+<body>
+  <a class="skip-link" href="#main">본문으로 이동</a>
+  <nav aria-label="언어 / Language" class="notranslate" translate="no">
+    <a href="{{ '/' | absolute_url }}" lang="ko" aria-label="한국어 원문">한국어</a>
+    <a href="https://translate.google.com/translate?sl=ko&amp;tl=en&amp;u={{ '/' | absolute_url | url_encode }}" lang="en" aria-label="Read in English with Google Translate">English</a>
+  </nav>
+  <main id="main" tabindex="-1">{{ content }}</main>
+</body>
 </html>

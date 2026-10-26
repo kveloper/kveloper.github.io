@@ -1,19 +1,9 @@
 title: KVELOPER
-description: Code, play, and everything in between.
+description: 정상혁의 개인 페이지
 url: https://kveloper.github.io
 baseurl: ""
 markdown: kramdown
-defaults:
-  - scope:
-      path: "post"
-    values:
-      layout: project
 exclude:
   - README.md
-  - Windows_TTF
-  - Mac_OTF
-  - scripts
   - Gemfile
   - Gemfile.lock
-include:
-  - assets
