@@ -3,6 +3,14 @@ description: 정상혁의 개인 페이지
 url: https://kveloper.github.io
 baseurl: ""
 markdown: kramdown
+permalink: /:title/
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: default
+      lang: ko
 exclude:
   - README.md
   - Gemfile

@@ -13,7 +13,14 @@
   <a class="skip-link" href="#main">{{ page.skip_label | default: '본문으로 이동' }}</a>
   <header class="site-header">
   <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+  <nav class="document-tabs" aria-label="문서 이동">
+    <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>메인</a>
+    {% assign documents = site.posts | sort: 'order' %}
+    {% for document in documents %}
+    <a href="{{ document.url | relative_url }}"{% if page.url == document.url %} aria-current="page"{% endif %}>{{ document.title | escape }}</a>
+    {% endfor %}
+  </nav>
   </header>
-  <main id="main" tabindex="-1">{{ content }}</main>
+  <main id="main" tabindex="-1">{% if page.collection == 'posts' %}<h1>{{ page.title | escape }}</h1>{% endif %}{{ content }}</main>
 </body>
 </html>
