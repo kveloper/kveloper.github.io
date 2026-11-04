@@ -22,3 +22,16 @@ description: 정상혁의 개인 페이지
     
 
 * * *
+
+<nav class="social-links" aria-label="외부 바로가기">
+  <a class="social-link" href="https://github.com/kveloper">
+    <img src="{{ '/assets/github.png' | relative_url }}" alt="" width="32" height="32" />
+    <span>GitHub</span>
+    <span class="social-link-arrow" aria-hidden="true">↗</span>
+  </a>
+  <a class="social-link" href="https://blog.naver.com/geojeong02">
+    <img src="{{ '/assets/naverblog.png' | relative_url }}" alt="" width="32" height="32" />
+    <span>네이버 블로그</span>
+    <span class="social-link-arrow" aria-hidden="true">↗</span>
+  </a>
+</nav>
