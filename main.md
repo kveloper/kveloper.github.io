@@ -6,8 +6,6 @@ skip_label: 본문으로 이동
 description: 정상혁의 개인 페이지
 ---
 
-## 정보
-
 <img src="./assets/me.png" width="163" height="163" />
 
 **정상혁(Sanghyeok Jeong / チョン・サンヒョク)**
