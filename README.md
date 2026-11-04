@@ -1,5 +1,7 @@
 # KVELOPER
 
+[kveloper.github.io](http://kveloper.github.io)
+
 `main.md`를 기본 홈(`/`)에 표시하는 GitHub Pages 사이트입니다.
 
 `main.md` 상단의 `---` 설정은 유지하고 아래 Markdown 본문을 수정한 뒤 배포 브랜치에 커밋·푸시하면 Jekyll이 자동으로 빌드합니다. 수동 컴파일은 필요하지 않습니다.
@@ -20,5 +22,3 @@ order: 4
 파일명에는 오늘 또는 이전 날짜를 사용하세요. 미래 날짜 문서는 아직 표시되지 않습니다. 문서 상단에는 제목이 자동 표시되므로 본문에서 같은 H1을 반복할 필요는 없습니다.
 
 폰트는 Pretendard Medium(500)과 ExtraBold(800) WOFF2를 사용하며, 라이선스는 `assets/fonts/Pretendard-LICENSE.txt`에 포함되어 있습니다.
-
-GitHub 저장소 Settings → Pages에서 Deploy from a branch 및 배포 브랜치의 /(root)를 사용하세요.
