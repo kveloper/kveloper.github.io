@@ -23,16 +23,6 @@ description: 정상혁의 개인 페이지
 
 * * *
 
-<img src="{{ '/assets/github.png' | relative_url }}" alt="" width="32" height="32" />
-
 [📧 nacl31566@gmail.com](mailto:📧nacl31566@gmail.com)
 
 📱(업무용) 010-2496-3212
-
-* * *
-
-[GitHub ↗](https://github.com/kveloper)
-
-<img src="{{ '/assets/naverblog.png' | relative_url }}" alt="" width="32" height="32" />
-
-[네이버 블로그 ↗](https://blog.naver.com/geojeong02)

@@ -2,7 +2,7 @@ title: KVELOPER
 description: 정상혁의 개인 페이지
 url: https://kveloper.github.io
 baseurl: ""
-style_version: 8e70a6d9bdbe
+style_version: 59e82f409152
 markdown: kramdown
 permalink: /:title/
 defaults:

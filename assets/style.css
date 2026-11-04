@@ -13,6 +13,8 @@ html {
   overflow-wrap: anywhere;
 }
 body {
+  display: flex;
+  flex-direction: column;
   max-width: 880px;
   min-height: calc(100vh - 96px);
   margin: 48px auto;
@@ -95,6 +97,14 @@ hr { border: 0; border-top: 1px solid #dddddd; margin: 40px 0; }
 img { max-width: 100%; height: auto; }
 .skip-link { position: absolute; top: 0; left: 20px; transform: translateY(-150%); background: #fafafa; }
 .skip-link:focus { transform: none; }
+.site-footer {
+  margin-top: auto;
+  padding-top: 40px;
+}
+.site-footer .social-links {
+  border-top: 1px solid #e3e5f3;
+  padding-top: 24px;
+}
 .social-links {
   display: flex;
   flex-wrap: wrap;

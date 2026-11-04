@@ -22,5 +22,19 @@
   </nav>
   </header>
   <main id="main" tabindex="-1">{% if page.collection == 'posts' %}<h1>{{ page.title | escape }}</h1>{% endif %}{{ content }}</main>
+  <footer class="site-footer">
+    <nav class="social-links" aria-label="외부 바로가기">
+      <a class="social-link" href="https://github.com/kveloper">
+        <img src="{{ '/assets/github.png' | relative_url }}" alt="" width="32" height="32">
+        <span>GitHub</span>
+        <span class="social-link-arrow" aria-hidden="true">↗</span>
+      </a>
+      <a class="social-link" href="https://blog.naver.com/geojeong02">
+        <img src="{{ '/assets/naverblog.png' | relative_url }}" alt="" width="32" height="32">
+        <span>네이버 블로그</span>
+        <span class="social-link-arrow" aria-hidden="true">↗</span>
+      </a>
+    </nav>
+  </footer>
 </body>
 </html>
